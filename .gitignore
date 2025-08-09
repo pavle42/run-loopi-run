@@ -1,0 +1,78 @@
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+*.log
+
+# Blender backups
+*.blend1
+*.blend1.meta
+
+# Memory/recordings
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# JetBrains Rider
+[Aa]ssets/Plugins/Editor/JetBrains*
+*.DotSettings.user
+
+# VS / Gradle
+.vs/
+.gradle/
+
+# Solution/project and debug caches
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Crash and mono
+sysinfo.txt
+mono_crash.*
+
+# Builds/artifacts
+*.apk
+*.aab
+*.unitypackage
+*.unitypackage.meta
+*.app
+
+# Test runner
+InitTestScene*.unity*
+
+# Addressables (default noisy bits)
+ServerData/
+[Aa]ssets/StreamingAssets/aa*
+[Aa]ssets/AddressableAssetsData/link.xml*
+[Aa]ssets/Addressables_Temp*
+[Aa]ssets/AddressableAssetsData/*/*.bin*
+
+# Visual Scripting generated
+[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db
+[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db.meta
+[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers
+[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
+
+# Prevent huge Burst toolchains inside Library (redundant but explicit)
+[Ll]ibrary/PackageCache/
+
+# OS clutter
+.DS_Store
+Thumbs.db
+Desktop.ini
